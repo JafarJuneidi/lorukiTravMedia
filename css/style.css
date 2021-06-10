@@ -61,9 +61,8 @@ pre {
 }
 
 .hidden {
-    /* visibility: hidden;
-    height: 0; */
-    display: none;
+    visibility: hidden;
+    height: 0;
 }
 /* NAVBAR STYLES */
 .navbar {
