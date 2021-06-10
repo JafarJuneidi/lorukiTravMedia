@@ -60,6 +60,11 @@ pre {
     padding: 0.625em;
 }
 
+.hidden {
+    /* visibility: hidden;
+    height: 0; */
+    display: none;
+}
 /* NAVBAR STYLES */
 .navbar {
     background-color: var(--primary-background);
