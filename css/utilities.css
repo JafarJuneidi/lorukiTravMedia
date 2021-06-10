@@ -1,0 +1,213 @@
+/* UTILITIES */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 2.5em; /* 40px */
+}
+
+.card {
+    background-color: var(--tertiary-background);
+    color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 1.25em; /* 20px */
+    margin: 0.625em; /* 10px */
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.625em 1.875em;
+    cursor: pointer;
+    background-color: var(--primary-background);
+    color: var(--tertiary-background);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: scale(0.97);
+}
+
+/* backgrounds & colored buttons */
+.text_primary {
+    color: var(--primary-background);
+}
+
+.text_secondary {
+    color: var(--secondary-color);
+}
+
+.text_dark {
+    color: var(--secondary-color);
+}
+
+.text_light {
+    color: var(--primary-color);
+}
+
+.btn_outline {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+/* TEXT COLORS */
+.bg-primary,
+.btn_primary {
+    background-color: var(--primary-background);
+    color: var(--secondary-color);
+}
+
+.bg-secondary,
+.btn_secondary {
+    background-color: var(--secondary-background);
+    color: var(--secondary-color);
+}
+
+.bg-tertiary,
+.btn_tertiary {
+    background-color: var(--tertiary-background);
+    color: var(--secondary-color);
+}
+
+.bg-dark,
+.btn_dark {
+    background-color: var(--dark-background);
+    color: var(--secondary-color);
+}
+
+.bg-light,
+.btn_light {
+    background-color: var(--light-background);
+    color: var(--primary-color);
+}
+
+/* TEST SIZES */
+.lead {
+    font-size: 1.25em; /* 20px*/
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+/* TEST SIZES */
+
+.text-center {
+    text-align: center;
+}
+
+/* Alert */
+.alert {
+    background-color: var(--light-background);
+    padding: 0.625em 1.25em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.alert i {
+    margin-right: 0.625em;
+}
+
+.alert_success {
+    background-color: var(--success-background);
+    color: var(--secondary-color);
+}
+
+.alert_error {
+    background-color: var(--error-background);
+    color: var(--secondary-color);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25em; /* 20xp */
+    justify-content: center;
+    align-items: center; /* won't work without height */
+    height: 100%;
+}
+
+/* MARGIN */
+.my-1 {
+    margin: 1rem 0;
+}
+.my-2 {
+    margin: 1.5rem 0;
+}
+.my-3 {
+    margin: 2rem 0;
+}
+.my-4 {
+    margin: 3rem 0;
+}
+.my-5 {
+    margin: 4rem 0;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+.m-2 {
+    margin: 1.5rem;
+}
+.m-3 {
+    margin: 2rem;
+}
+.m-4 {
+    margin: 3rem;
+}
+.m-5 {
+    margin: 4rem;
+}
+
+/* PADDING */
+.py-1 {
+    padding: 1rem 0;
+}
+.py-2 {
+    padding: 1.5rem 0;
+}
+.py-3 {
+    padding: 2rem 0;
+}
+.py-4 {
+    padding: 3rem 0;
+}
+.py-5 {
+    padding: 4rem 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+.p-2 {
+    padding: 1.5rem;
+}
+.p-3 {
+    padding: 2rem;
+}
+.p-4 {
+    padding: 3rem;
+}
+.p-5 {
+    padding: 4rem;
+}
